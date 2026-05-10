@@ -1,6 +1,6 @@
 # PAM-Phantom — Linux PAM Persistence Research (Defensive PoC)
 
-> ⚠️ **Disclaimer:** This project is intended strictly for defensive security education, malware analysis, and isolated lab research. Do not deploy or test it on systems without explicit authorization.
+> ⚠️ **Disclaimer:** This project is intended strictly for defensive security education, malware analysis, and isolated lab research. The author is not responsible for misuse, unauthorized deployment, or illegal activities performed using this project.
 
 ---
 

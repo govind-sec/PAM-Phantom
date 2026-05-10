@@ -3,6 +3,18 @@
 > ⚠️ **Disclaimer:** This project is intended strictly for defensive security education, malware analysis, and isolated lab research. The author is not responsible for misuse, unauthorized deployment, or illegal activities performed using this project.
 
 ---
+### Inspiration
+
+This project was inspired by publicly shared cybersecurity research and educational demonstrations from the security community, particularly the work shared by **Jolanda de Koff**.
+
+PAM-Phantom is not presented as an original real-world threat framework or intrusion toolkit.
+This repository was created as a defensive proof-of-concept inspired by publicly discussed PAM persistence concepts and educational demonstrations in order to study Linux authentication internals, post-exploitation behavior, and detection opportunities in controlled lab environments.
+
+Reference:
+[Jolanda de Koff — LinkedIn Research Post](https://www.linkedin.com/posts/jolandadekoff_ethicalhacking-cybersecurity-linux-share-7459237060894212096-Yjzz?utm_source=chatgpt.com)
+
+
+---
 
 # 📖 Overview
 
@@ -342,4 +354,12 @@ Unauthorized deployment against third-party systems is unethical and may violate
 # 👨‍💻 Author
 
 **Govind Ambade**
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/govind-ambade">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="22"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/govind-ambade">LinkedIn Profile</a>
+</p>
 
